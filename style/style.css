@@ -4,9 +4,15 @@ selector:
 - select by id (#)
 - select by class (.) => more popular because it easy to reuse
 - select a group: h1,h2,h3,.bold..... by `,`
+- a tag can have many class but only 1 id
 */
 
-p {
+/*
+google font -> import font 
+
+
+*/
+/* p {
     font-size: 20px;
 }
 
@@ -20,5 +26,121 @@ p {
 
 h1,p {
     color: #888;
-    font-family: sans-serif;
+    font-family: sans-serif; */
+/*  */
+
+/*
+padding -> kcach tu content -> vien'
+div tag => create a rectangle with background is invisible 
+margin -> kcach giua cac component voi nhau
+
+border-> vien'
+border-width: 
+border-style: 
+border-color
+
+
+*/
+
+body {
+    background-color:rosybrown;
 }
+
+.list-item {
+    color: rosybrown ;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color:black;
+    border-radius: 5px;
+    background-color: #DDD;
+}
+
+/*
+- note: transparent color make your bg color invisible
+- the order of style css is important
+- gradient color
+*/
+
+.list-item-transparent {
+    background-color: transparent;
+}
+
+/*
+- backgorund-image: url()
+- background-repeat: lap lai cua hih anh chen vao (default la repeat) repeat-x, repeat-y
+- background-size: size cua anh chen vao
+- background-position:
+- background-attachment:
+*/
+
+
+.list-item-pattern {
+    background-image: url(../img/pattern.jpg);
+    background-size: 20%;
+    background-repeat: repeat;
+    height: 100px;
+    color: white;
+}
+
+/*
+- fit anh bgr vao khung hinh => background-size
+*/
+
+.list-item-image {
+    background-image: url(../img/bgr.jpg);
+    height: 100px;
+    color: white;
+    background-size: cover;
+    background-position: 0 -100px;
+}
+
+
+.list-item-parallax {
+    background-image: url(../img/bgr.jpg);
+    height: 100px;
+    color: white;
+    background-size: cover;
+    background-position: 0 100px;
+    background-attachment: fixed;
+}
+
+/*
+-inline and block
+- html element => sort left->right , top to down
+- inline element : (a tag, ...) element have width = content , and can in one line with another inline element
+- block element: p tag, div tag,... in one line
+
+
+css property::
+
+display: block, inline,... 
+
+css combinators
+
+filter specify tag you need to style
+
+.list-2 .item-2 {} => search in tag class list-2 all tag have class item-2 and style for all this tag 
+
+- descendant selector (space) cha => apply all style cho con chau
+- child selector (>) chi chon con khong apply cho cac the con cua con
+- adjacent selector (+)  tim anh em tiep theo trong cay html => apply cung 
+- ex: .list-1 .item-2 + .item => tim trong list-1 tag co class item-2 va select thang anh em tiep theo cua no
+- 
+general sibling selector (~) select nhieu anh em sau do 
+ex: .list-1 .item-2 ~ .item tim trong list-1 tag co class item-2 va select tất cả thang anh em tiep theo cua no co class la item
+
+
+
+- Pseudo class and pseudo element visited, hover, active, ...
+
+- Flex box:
+
+code xác định các component chính => có thể reuse 
+
+
+- 
+
+*/

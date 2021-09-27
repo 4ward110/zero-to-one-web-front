@@ -1,0 +1,62 @@
+/*
+- Thay doi vi tri cua cac box
+
+- position: static*, relative, fixed, absolute, sticky
+- 4 property to make change position of a element: top bottom left right
+
+relative (tuong doi) => khi ap dung dich chuyen box do => dich 1 doan tuong doi voi vi tri cua no
+
+*/
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+    /* position: relative;
+    top: 20px */
+}
+
+.blue {
+    background-color: blue;
+}
+
+/*
+- giu box duoc gan thuoc tinh => di chuyen khong theo vi tri tuong doi nhu relative
+
+- cach top 10px
+- cach right 10px
+*/
+.fixed {
+    position: fixed;
+    right: 10px; 
+    
+    bottom: 10px;
+}
+
+/*
+absolute
+
+- di chuyen thay doi vi tri element nhung no se dich chuyen 1 cach tuong doi voi thang cha dau tien ma co position relative
+
+- can chinh khong khac fixed
+
+*/
+
+/*
+- Float thuong sd cho paragraph 
+
+- Grid : tao 1 luoi grid 
+
+
+
+
+*/

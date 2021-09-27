@@ -1,0 +1,48 @@
+/*
+- flex co nhung property cho the cha va con
+vd nhu container la the cha de the con cua component do co the ap dung flex => can display flex
+
+- justify-content: can chinh vi tri cac the con nam trong the cha 
+flex-start, flex-end, center, space-between, space arround, space-evenly
+
+- align-item: can chinh element con theo huong vuong goc hien tai
+center, flex-start, flex-end, baseline, stretch 
+
+
+// thuoc tinh flex cho cac the con
+
+- flex-basis: <length> gian the con theo chieu ngang
+- flex-grow: neu con thua space => chia cho cac thang con
+- flex-shrink: neu setdesign do rong cho cac box co tong > do rong cua man => auto se bi cut di nhung neu co thuoc tinh nay thi box do khong bi cut
+- order: 0*| <number> => thay doi thu tu cac box , mac dinh thuoc tinh nay = 0
+- 
+
+*/
+
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    background-color: #ddd;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 250px;
+    align-items: flex-start;
+}
+
+.child-1 {
+    background-color: red;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.child-2 {
+    background-color: green;
+    flex-grow: 1;
+}
+
+.child-3 {
+    background-color: blue;
+    flex-grow: 1;
+}
