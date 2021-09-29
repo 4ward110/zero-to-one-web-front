@@ -150,3 +150,42 @@
     flex-direction: column;
     padding: 35px;
 }
+
+.chart-table {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.table {
+    text-align: center;
+    width: 500px;
+}
+
+.chart {
+    text-align: center;
+    width: 600px;
+}
+
+.map-contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.contact {
+    width: 374;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 99px;
+    background-color: black;
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
