@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../style/home.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Men Clothes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="#">
+                    <img src="../img/logo1.png" class="logo-pic" alt="">
+                </a>
+                <p class="no-link1">
+                    <a href="#" class="no-link">Shop for men </a>
+                </p>
+            </div>
+            <ul class="nav nav-pills justify-content-end right">
+                <li class="nav-item">
+                  <a class="nav-link home active text-white bg-dark " aria-current="page" href="home.html">Trang chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-black" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Sản Phẩm</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="shirt.html">Áo</a></li>
+                    <li><a class="dropdown-item" href="pant.html">Quần</a></li>
+                    <li><a class="dropdown-item" href="Suit.html">Suit</a></li>
+                    <li><a class="dropdown-item" href="phukien.html">Phụ Kiện</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="membership.html">Membership</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="cart.html">Giỏ Hàng</a>
+                </li>
+            </ul>
+        </div>
+        <div class="banner-img">
+        </div>
+    </div>
+    <div class="sub-banner">
+      <div class="text">
+        <span id="quotes">
+          "FASHION IS MY PASSION"
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="line"></div>
+      <div class="text-1">
+        <span id = title-1>
+          HÀNG MỚI VỀ
+        </span>
+      </div>
+      <div class="row" style="margin-left: 5px;">
+        <div class="col">
+          <div class="card" style="width: 16rem; border: none;">
+            <img src="../img/home/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="margin:0%; padding: 0%;">
+              <p class="card-text" style="text-align: center;font-size: 18px;margin-top: 15px;">Áo somi form rộng</p>
+              <p class="card-text" style="text-align: center;font-size: 18px; font-weight: bold;">650.000 đ</p>
+              <div class="buy-button">
+                <span id="buy-button">
+                  <a href="cart.html" style="color:#ffff; text-decoration: none;">Buy</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 16rem; border: none;">
+            <img src="../img/home/2.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="margin:0%; padding: 0%;">
+              <p class="card-text" style="text-align: center;font-size: 18px;margin-top: 15px;">quần tây trẻ trung</p>
+              <p class="card-text" style="text-align: center;font-size: 18px; font-weight: bold;">750.000 đ</p>
+              <div class="buy-button">
+                <span id="buy-button">
+                  <a href="cart.html" style="color:#ffff; text-decoration: none;">Buy</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 16rem; border: none;">
+            <img style="width: 256px; height: 309px;" src="../img/home/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="margin:0%; padding: 0%;">
+              <p class="card-text" style="text-align: center;font-size: 18px;margin-top: 15px;">quần tây trẻ trung</p>
+              <p class="card-text" style="text-align: center;font-size: 18px; font-weight: bold;">750.000 đ</p>
+              <div class="buy-button">
+                <span id="buy-button">
+                  <a href="cart.html" style="color:#ffff; text-decoration: none;">Buy</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 16rem; border: none;">
+            <img src="../img/home/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="margin:0%; padding: 0%;">
+              <p class="card-text" style="text-align: center;font-size: 18px;margin-top: 15px;">Đồng hồ cơ cao cấp</p>
+              <p class="card-text" style="text-align: center;font-size: 18px; font-weight: bold;">10.000.000 đ</p>
+              <div class="buy-button">
+                <span id="buy-button">
+                  <a href="cart.html" style="color:#ffff; text-decoration: none;">Buy</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="line" style="margin-top: 35px;"></div>
+      <div class="text-1">
+        <span id = title-1>
+          HÀNG ĐANG GIẢM GIÁ
+        </span>
+      </div>
+      <div class="row" style="margin-left: 5px;">
+        <div class="col">
+          <div class="card" style="width: 16rem; border: none;">
+            <img src="../img/home/5.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="margin:0%; padding: 0%;">
+              <p class="card-text" style="text-align: center;font-size: 18px;margin-top: 15px;">Áo sơ mi công sở</p>
+              <p class="card-text" style="text-align: center;font-size: 18px; font-weight: bold;">
+                <span id="sale-text">1.000.000 đ</span>
+                <span id="after-sale">600.000 đ</span>
+              </p>
+              <div class="buy-button">
+                <span id="buy-button">
+                  <a href="cart.html" style="color:#ffff; text-decoration: none;">Buy</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 16rem; border: none;">
+            <img src="../img/home/6.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="margin:0%; padding: 0%;">
+              <p class="card-text" style="text-align: center;font-size: 18px;margin-top: 15px;">Caravat cao cấp</p>
+              <p class="card-text" style="text-align: center;font-size: 18px; font-weight: bold;">
+                <span id="sale-text">1.000.000 đ</span>
+                <span id="after-sale">700.000 đ</span>
+              </p>
+              <div class="buy-button">
+                <span id="buy-button">
+                  <a href="cart.html" style="color:#ffff; text-decoration: none;">Buy</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 16rem; border: none;">
+            <img src="../img/home/7.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="margin:0%; padding: 0%;">
+              <p class="card-text" style="text-align: center;font-size: 18px;margin-top: 15px;">quần jeans đen</p>
+              <p class="card-text" style="text-align: center;font-size: 18px; font-weight: bold;">
+                <span id="sale-text">1.000.000 đ</span>
+                <span id="after-sale">750.000 đ</span>
+              </p>
+              <div class="buy-button">
+                <span id="buy-button">
+                  <a href="cart.html" style="color:#ffff; text-decoration: none;">Buy</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 16rem; border: none;">
+            <img src="../img/suit/8.jpg" class="card-img-top" alt="...">
+            <div class="card-body" style="margin:0%; padding: 0%;">
+              <p class="card-text" style="text-align: center;font-size: 18px;margin-top: 15px;">Suit cao cấp</p>
+              <p class="card-text" style="text-align: center;font-size: 18px; font-weight: bold;">
+                <span id="sale-text">11.000.000 đ</span>
+                <span id="after-sale">10.000.000 đ</span>
+              </p>
+              <div class="buy-button">
+                <span id="buy-button">
+                  <a href="cart.html" style="color:#ffff; text-decoration: none;">Buy</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line" style="margin-top: 35px; margin-bottom: 35px;"></div>
+      <div class="video">
+        <div>
+          <iframe width="558" height="379" src="https://www.youtube.com/embed/4XWgVoAlOvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+          <iframe width="558" height="379" src="https://www.youtube.com/embed/qOr-fnZJhaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="sub-banner">
+      <div class="text">
+        <span id="quotes">
+          "SỨ MỆNH"
+        </span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="cited">
+        <p class="cited1" style="text-align: center;">
+          <span style="font-family: 'Bitter'; font-size: 14pt; font-weight: normal; vertical-align: baseline;">
+            <em>"</em>
+          </span>
+          <span style="color: #000000; font-family: 'Bitter'; font-size: 14pt; font-weight: normal; vertical-align: baseline;">
+            <em>
+              Giá trị sản phẩm là tinh thần cốt lõi. Ba nhân tố tối cao được đề cập đến bao gồm độ bền của chất liệu, đột phá trong thiết kế và phát triển trong sản xuất."
+            </em>
+          </span>
+        </p>
+        <p class="cited2" style="text-align: center;">
+          <span style="color: #000000; font-family: 'Bitter'; font-size: 14pt; font-weight: normal; vertical-align: baseline;">
+            <em>***</em>
+          </span>
+        </p>
+        <p class="cited3" style="background-color: transparent; border-bottom: none; border-left: none; border-right: none; border-top: none; line-height: 1.38; margin-bottom: 8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; text-align: center;">
+          <span style="color: #000000; font-family: 'Bitter'; font-size: 14pt; font-weight: normal; vertical-align: baseline;">
+            <em>
+              "Hơn cả một thiết kế thông thường, Rymo còn mang linh hồn vào chính sản phẩm của mình để tạo ra động lực bởi chính câu chuyện được kể"
+            </em>
+          </span>
+        </p>
+        <p class="cited2" style="text-align: center;">
+          <span style="color: #000000; font-family: 'Bitter'; font-size: 14pt; font-weight: normal; vertical-align: baseline;">
+            <em>***</em>
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="pen" style="background-size: cover; background-position: center center; background-image: url(../img/pen.jpg); height: 350px;">
+      <div class="cot1">
+        <p class="cot">
+          <span style="font-size: 30px;margin-bottom: 20px; text-align: center;">
+            SÁNG TẠO
+          </span>
+          <span style="font-size: 15px;margin-bottom: 20px; text-align: center;">
+            Với mong muốn mang lại sự khác biệt trong thời 
+            trang. Rymo không ngừng nỗ lực mang đến những 
+            thiết kế đơn giản gần gũi mà còn khám phá các 
+            thiết kế độc đáo khác. Cảm ơn tình cảm của các bạn giúp 
+            chúng tôi nỗ lực đổi mới và kiến tạo mỗi ngày, để 
+            mang lại sản phẩm tuyệt vời tạo hình ảnh cá nhân 
+            riêng bạn
+          </span>
+        </p>
+      </div>
+
+      <div class="cot1">
+        <p class="cot">
+          <span style="font-size: 30px;margin-bottom: 20px; text-align: center;">
+            CHẤT LƯỢNG
+          </span>
+          <span style="font-size: 15px;margin-bottom: 20px; text-align: center;">
+            Chất lượng sản phẩm luôn là 1 trong những yếu tố hàng đầu mà Rymo quan tâm bên cạnh sự sáng tạo đột phá. Với mong muốn mang đến cho khách hàng những sản phẩm tốt nhất, Rymo luôn đem đến chất lượng sản phẩm được hơn hàng ngàn người dùng đánh giá vượt giá trị bỏ ra. Trong thời gian phát triển chúng tôi cũng sẽ mang lại những cam kết về chất lượng và mức giá hợp lý vì niềm tin của các bạn.
+          </span>
+        </p>
+      </div>
+
+      <div class="cot1">
+        <p class="cot">
+          <span style="font-size: 30px;margin-bottom: 20px; text-align: center;">
+            THÂN THIỆN
+          </span>
+          <span style="font-size: 15px;margin-bottom: 20px; text-align: center;">
+            Không chỉ tập trung phát triển sản phẩm mà con người là yếu tố được quan tâm không kém. Từ khách hàng đến nhân viên được Rymo lấy trọng tâm cho mọi quyết định và sáng tạo. Đó là lý do những câu chuyện hay những tinh thần được truyền tải đằng sau các thiết kế.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div class="chart-table">
+      <div class="table">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Số áo bán ra</th>
+              <th scope="col">Số quần bán ra</th>
+              <th scope="col">Số suit bán ra</th>
+              <th scope="col">Số phụ kiện bán ra</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Tháng 1</th>
+              <td>689</td>
+              <td>345</td>
+              <td>98</td>
+              <td>104</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 2</th>
+              <td>421</td>
+              <td>124</td>
+              <td>86</td>
+              <td>98</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 3</th>
+              <td>362</td>
+              <td>68</td>
+              <td>263</td>
+              <td>67</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 4</th>
+              <td>222</td>
+              <td>357</td>
+              <td>72</td>
+              <td>135</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 5</th>
+              <td>246</td>
+              <td>68</td>
+              <td>65</td>
+              <td>67</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 6</th>
+              <td>222</td>
+              <td>68</td>
+              <td>65</td>
+              <td>67</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 7</th>
+              <td>251</td>
+              <td>68</td>
+              <td>125</td>
+              <td>136</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 8</th>
+              <td>183</td>
+              <td>63</td>
+              <td>99</td>
+              <td>124</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 9</th>
+              <td>222</td>
+              <td>125</td>
+              <td>65</td>
+              <td>237</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 10</th>
+              <td>272</td>
+              <td>172</td>
+              <td>125</td>
+              <td>246</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 11</th>
+              <td>222</td>
+              <td>229</td>
+              <td>111</td>
+              <td>231</td>
+            </tr>
+            <tr>
+              <th scope="row">Tháng 12</th>
+              <td>402</td>
+              <td>256</td>
+              <td>125</td>
+              <td>91</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="chart">
+        <canvas id="myChart" width="400" height="400"></canvas>
+        <script>
+          var ctx = document.getElementById('myChart').getContext('2d');
+          var myChart = new Chart(ctx, {
+              type: 'bar',
+              data: {
+                  labels: ["Tháng 1","Tháng 2","Tháng 3","Tháng 4","Tháng 5","Tháng 6","Tháng 7","Tháng 8","Tháng 9","Tháng 10","Tháng 11","Tháng 12",],
+                  datasets: [
+                  {
+                    label: 'Áo',
+                    backgroundColor: "blue",
+                    data: [89, 421, 362, 222, 246, 222, 251, 183, 222, 272, 222, 402],
+                  },
+                  {
+                    label: 'Quần',
+                    backgroundColor: "orange",
+                    data: [345, 345, 68, 357, 68, 68, 63, 125, 172, 229, 256, 125],
+                  },
+                  {
+                    label: 'Suit',
+                    backgroundColor: "gray",
+                    data: [98, 86, 263, 72, 65, 65, 125, 99, 65, 125, 111, 141],
+                  }, 
+                  {
+                    label: 'Phụ Kiện',
+                    backgroundColor: "yellow",
+                    data: [28, 16, 63, 27, 65, 55, 25, 19, 55, 35, 41, 99],
+                  },
+                ]
+              },
+              options: {
+                  scales: {
+                      y: {
+                          beginAtZero: true
+                      }
+                  }
+              }
+          });
+        </script>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="nhom" style="padding-left: 56px;" >
+        Bài tập lớn nhóm 16
+      </div>
+      <div class="thanhvien" style="padding-left: 56px;" >
+        Thành viên nhóm: Vũ Đức Long-Hoàng Công Minh-Bùi Thị Minh
+      </div>
+    </div>
+</body>
+</html>
